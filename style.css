@@ -112,10 +112,14 @@ footer{
 }
 
 footer h5 {
+    display: flex;
     font-style: italic;
     font-style: bold;
     color: lightgray;
     margin-bottom: 20px;
+}
+#social {
+    display:flex;
 }
 
 /* Style all font awesome icons */
