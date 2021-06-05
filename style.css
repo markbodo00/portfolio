@@ -12,7 +12,7 @@ header {
     display: flex;
     flex-direction: row;
     background-color: rgb(0, 33, 113);
-    border-bottom: 3px solid rgb(210, 236, 61);
+    border-bottom: 3px solid rgb(217, 255, 0);
     width: 100%;
     justify-content: space-between;
     height: auto;
