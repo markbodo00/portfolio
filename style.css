@@ -6,6 +6,7 @@ body {
     font-family: "Lexend Mega", sans-serif;
     padding: 0 0;
     margin: 0 0 ;
+    height: 100%;
 }
 
 header {
@@ -87,7 +88,7 @@ h1 {
 }
 .skill {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: flex-start;
     align-items: center;
 }
