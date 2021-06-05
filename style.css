@@ -6,7 +6,7 @@ body {
     font-family: "Lexend Mega", sans-serif;
     padding: 0 0;
     margin: 0 0 ;
-    height: 100%;
+    line-height: 1;
 }
 
 header {
@@ -17,6 +17,10 @@ header {
     width: 100%;
     justify-content: space-between;
     height: auto;
+    /* position: fixed; */
+    z-index: 100;
+
+
 
     
 
@@ -50,6 +54,14 @@ nav li:hover {
     opacity: 0.7;
 }
 
+.main {
+    /* position: relative; */
+    top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #about {
     display: flex;
     align-items: center;
@@ -65,7 +77,11 @@ h1 {
 
 #about p {
     font-family: 'Times New Roman', Times, serif;
-    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    width: 90%;
+    max-width: 60rem;
 
 }
 #profil {
@@ -73,32 +89,45 @@ h1 {
     height: 300px;
     border: solid 5px darkblue;
     border-radius: 50%;
+    
+
 }
 
 #projects {
     text-align: left;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    padding-top: 3rem;
+    width: 90%;
+    max-width: 60rem;
 }
 
 #skills {
     text-align: left;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    width: 90%;
+    max-width: 60rem;
+
 }
 .skill {
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content:left;
     align-items: center;
+    height: 300px;
+    overflow: auto;
+    color: white;
+
+
 }
 
 .skill img{
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
+    margin: 10 auto;
+    width: auto;
     padding: 10px;
-    height: auto;
+    height: 100px;
+
 }
 
 footer{
@@ -111,6 +140,7 @@ footer{
     height: auto;
     align-items: center;
 
+
 }
 
 footer h5 {
@@ -120,7 +150,6 @@ footer h5 {
     margin-bottom: 20px;
 }
 #social {
-    display:flex;
 }
 
 /* Style all font awesome icons */
