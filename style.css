@@ -88,7 +88,7 @@ h1 {
 .skill {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -106,7 +106,7 @@ footer{
     background-color: rgb(0, 33, 113);
     border-top: 3px solid rgb(217, 255, 0);
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     height: auto;
     align-items: center;
 
